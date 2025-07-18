@@ -13,7 +13,11 @@ class Agent extends Model
     //     Model::preventLazyLoading(! $this->app->isProduction());
     // }
 
-
+    protected $fillable = [
+        'name',
+        'role',
+        'status',
+    ];
 
 }
 
