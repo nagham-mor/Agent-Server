@@ -9,9 +9,9 @@ class Agent extends Model
     use HasFactory;
     //protected $dateformat= 'U';
 
-    public function boot(): void {
-        Model::preventLazyLoading(! $this->app->isProduction());
-    }
+    // public function boot(): void {
+    //     Model::preventLazyLoading(! $this->app->isProduction());
+    // }
 
 
 
